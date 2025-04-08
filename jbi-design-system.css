@@ -1,0 +1,20 @@
+/* Explain the connection between primitives, semantics, components here */
+
+@import './foundations/tokens/colors/tokens-colors-primitives.css';
+@import './foundations/tokens/colors/tokens-colors-semantics.css';
+@import './foundations/tokens/typography/tokens-typography-primitives.css';
+@import './foundations/tokens/typography/tokens-typography-semantics.css';
+@import './foundations/tokens/tokens-effects.css';
+@import './foundations/tokens/tokens-responsive.css';
+@import './foundations/tokens/tokens-size.css';
+
+/* Componnet Colors */
+@import './foundations/tokens/colors/components/tokens-colors-button.css';
+@import './foundations/tokens/colors/components/tokens-colors-switch.css';
+@import './foundations/tokens/colors/components/tokens-colors-tab.css';
+@import './foundations/tokens/colors/components/tokens-colors-tag.css';
+@import './foundations/tokens/colors/components/tokens-colors-tooltip.css';
+@import './foundations/tokens/colors/components/tokens-colors-toolbar.css';
+
+/* Styles */
+@import './foundations/typography.css';
