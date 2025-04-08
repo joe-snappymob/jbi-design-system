@@ -1,0 +1,107 @@
+:root{
+    /* Button Primary */
+    --jbi-color-button-primary-background-default: var(--jbi-color-background-brand-01);
+    --jbi-color-button-primary-background-hover: var(--jbi-color-background-brand-01-hover);
+    --jbi-color-button-primary-background-active: var(--jbi-color-background-brand-01-active);
+    --jbi-color-button-primary-background-disabled: var(--jbi-color-background-disabled);
+
+    --jbi-color-button-primary-text-default: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-primary-text-hover: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-primary-text-active: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-primary-text-disabled: var(--jbi-color-text-disabled);
+
+    --jbi-color-button-primary-icon-default: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-primary-icon-hover: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-primary-icon-active: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-primary-icon-disabled: var(--jbi-color-icon-disabled);
+
+
+    /* Button Secondary */
+    --jbi-color-button-secondary-background-default: var(--jbi-color-background-neutral-02);
+    --jbi-color-button-secondary-background-hover: var(--jbi-color-background-neutral-02-hover);
+    --jbi-color-button-secondary-background-active: var(--jbi-color-background-neutral-02-active);
+    --jbi-color-button-secondary-background-disabled: var(--jbi-color-background-disabled);
+    
+    --jbi-color-button-secondary-border-default: var(--jbi-color-border-neutral-02);
+    --jbi-color-button-secondary-border-hover: var(--jbi-color-border-neutral-02-hover);
+    --jbi-color-button-secondary-border-active: var(--jbi-color-border-neutral-02-active);
+    --jbi-color-button-secondary-border-disabled: var(--jbi-color-border-disabled);
+    
+    --jbi-color-button-secondary-text-default: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-secondary-text-hover: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-secondary-text-active: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-secondary-text-disabled: var(--jbi-color-text-disabled);
+    
+    --jbi-color-button-secondary-icon-default: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-secondary-icon-hover: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-secondary-icon-active: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-secondary-icon-disabled: var(--jbi-color-icon-disabled);
+    
+    
+    /* Button Ghost */
+    --jbi-color-button-ghost-background-default: var(--jbi-color-background-transparent);
+    --jbi-color-button-ghost-background-hover: var(--jbi-color-background-neutral-01-hover);
+    --jbi-color-button-ghost-background-active: var(--jbi-color-background-neutral-01-active);
+    --jbi-color-button-ghost-background-disabled: var(--jbi-color-background-transparent);
+    
+    --jbi-color-button-ghost-text-default: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-ghost-text-hover: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-ghost-text-active: var(--jbi-color-text-neutral-01);
+    --jbi-color-button-ghost-text-disabled: var(--jbi-color-text-disabled);
+    
+    --jbi-color-button-ghost-icon-default: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-ghost-icon-hover: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-ghost-icon-active: var(--jbi-color-icon-neutral-01);
+    --jbi-color-button-ghost-icon-disabled: var(--jbi-color-icon-disabled);
+    
+    
+    /* Button Error */
+    --jbi-color-button-error-background-default: var(--jbi-color-background-error-01);
+    --jbi-color-button-error-background-hover: var(--jbi-color-background-error-01-hover);
+    --jbi-color-button-error-background-active: var(--jbi-color-background-error-01-active);
+    --jbi-color-button-error-background-disabled: var(--jbi-color-background-disabled);
+    
+    --jbi-color-button-error-text-default: var(--jbi-color-text-on-error-01);
+    --jbi-color-button-error-text-hover: var(--jbi-color-text-on-error-01);
+    --jbi-color-button-error-text-active: var(--jbi-color-text-on-error-01);
+    --jbi-color-button-error-text-disabled: var(--jbi-color-text-disabled);
+    
+    --jbi-color-button-error-icon-default: var(--jbi-color-icon-on-error-01);
+    --jbi-color-button-error-icon-hover: var(--jbi-color-icon-on-error-01);
+    --jbi-color-button-error-icon-active: var(--jbi-color-icon-on-error-01);
+    --jbi-color-button-error-icon-disabled: var(--jbi-color-icon-disabled);
+    
+    
+    /* Button Error Ghost */
+    --jbi-color-button-error-ghost-background-default: var(--jbi-color-background-transparent);
+    --jbi-color-button-error-ghost-background-hover: var(--jbi-color-background-error-03-hover);
+    --jbi-color-button-error-ghost-background-active: var(--jbi-color-background-error-03-active);
+    --jbi-color-button-error-ghost-background-disabled: var(--jbi-color-background-transparent);
+    
+    --jbi-color-button-error-ghost-text-default: var(--jbi-color-text-error-01);
+    --jbi-color-button-error-ghost-text-hover: var(--jbi-color-text-error-01);
+    --jbi-color-button-error-ghost-text-active: var(--jbi-color-text-error-01);
+    --jbi-color-button-error-ghost-text-disabled: var(--jbi-color-text-disabled);
+    
+    --jbi-color-button-error-ghost-icon-default: var(--jbi-color-icon-error-01);
+    --jbi-color-button-error-ghost-icon-hover: var(--jbi-color-icon-error-01);
+    --jbi-color-button-error-ghost-icon-active: var(--jbi-color-icon-error-01);
+    --jbi-color-button-error-ghost-icon-disabled: var(--jbi-color-icon-disabled);
+
+
+    /* Button Support Desk */
+    --jbi-color-button-support-desk-background-default: var(--jbi-color-button-primary-background-default);
+    --jbi-color-button-support-desk-background-hover: var(--jbi-color-button-primary-background-hover);
+    --jbi-color-button-support-desk-background-active: var(--jbi-color-button-primary-background-active);
+    --jbi-color-button-support-desk-background-disabled: var(--jbi-color-background-disabled);
+
+    --jbi-color-button-support-desk-text-default: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-support-desk-text-hover: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-support-desk-text-active: var(--jbi-color-text-on-brand-01);
+    --jbi-color-button-support-desk-text-disabled: var(--jbi-color-text-disabled);
+
+    --jbi-color-button-support-desk-icon-default: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-support-desk-icon-hover: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-support-desk-icon-active: var(--jbi-color-icon-on-brand-01);
+    --jbi-color-button-support-desk-icon-disabled: var(--jbi-color-icon-disabled);
+}

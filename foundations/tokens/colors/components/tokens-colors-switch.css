@@ -1,0 +1,19 @@
+:root{
+    /* Switch Unselected */
+    --jbi-color-switch-unselected-background-default: var(--jbi-color-background-neutral-05);
+    --jbi-color-switch-unselected-background-hover: var(--jbi-color-background-neutral-05);
+    --jbi-color-switch-unselected-background-disabled: var(--jbi-color-background-disabled);
+
+    --jbi-color-switch-unselected-icon-default: var(--jbi-color-icon-neutral-02);
+    --jbi-color-switch-unselected-icon-hover: var(--jbi-color-icon-neutral-02);
+    --jbi-color-switch-unselected-icon-disabled: var(--jbi-color-icon-disabled);
+
+    /* Switch Selected */
+    --jbi-color-switch-selected-background-default: var(--jbi-color-background-success-01);
+    --jbi-color-switch-selected-background-hover: var(--jbi-color-background-success-01-hover);
+    --jbi-color-switch-selected-background-disabled: var(--jbi-color-background-disabled);
+
+    --jbi-color-switch-selected-icon-default: var(--jbi-color-icon-success-02);
+    --jbi-color-switch-selected-icon-hover: var(--jbi-color-icon-success-01);
+    --jbi-color-switch-selected-icon-disabled: var(--jbi-color-icon-disabled);
+}

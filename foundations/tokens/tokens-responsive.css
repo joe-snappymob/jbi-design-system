@@ -1,0 +1,44 @@
+/* Breakpoints are based on Buefy's specification */
+
+:root {
+    --jbi-responsive-device: "wide-screen";
+    --jbi-responsive-device-width: 1216px;
+    --jbi-responsive-scale: 1;
+    --jbi-responsive-root-font-size: var(--jbi-typography-scale-04);
+
+    /* Fixed values for content widths - suggested by Raj */
+    --jbi-responsive-device-width-wide-screen: 1216px;
+    --jbi-responsive-device-width-desktop: 1024px;
+    --jbi-responsive-device-width-mobile: 768px;
+    --jbi-responsive-device-width-mobile: 375px;
+  }
+  
+  /* Desktop: 1024px to 1215px */
+  @media (max-width: 1215px) and (min-width: 1024px) {
+    :root {
+      --jbi-responsive-device: "desktop";
+      --jbi-responsive-device-width: 1024px;
+      --jbi-responsive-scale: 1;
+      --jbi-responsive-root-font-size: var(--jbi-typography-scale-04);
+    }
+  }
+  
+  /* Tablet: 768px to 1023px */
+  @media (max-width: 1023px) and (min-width: 768px) {
+    :root {
+      --jbi-responsive-device: "tablet";
+      --jbi-responsive-device-width: 768px;
+      --jbi-responsive-scale: 1;
+      --jbi-responsive-root-font-size: var(--jbi-typography-scale-04);
+    }
+  }
+  
+  /* Mobile: up to 767px */
+  @media (max-width: 767px) {
+    :root {
+      --jbi-responsive-device: "mobile";
+      --jbi-responsive-device-width: 375px;
+      --jbi-responsive-scale: 1.25;
+      --jbi-responsive-root-font-size: var(--jbi-typography-scale-03);
+    }
+  }

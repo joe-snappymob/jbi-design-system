@@ -1,0 +1,44 @@
+:root {
+    /* Space */
+    --jbi-space-0: 0px;
+    --jbi-space-50: 2px;
+    --jbi-space-100: 4px;
+    --jbi-space-150: 6px;
+    --jbi-space-200: 8px;
+    --jbi-space-300: 12px;
+    --jbi-space-400: 16px;
+    --jbi-space-600: 24px;
+    --jbi-space-800: 32px;
+    --jbi-space-1200: 48px;
+    --jbi-space-1600: 64px;
+    --jbi-space-2400: 96px;
+    --jbi-space-4000: 160px;
+    
+    /* Negative Space (for overlapping & stacked elements, responsive adjustments) */
+      --jbi-space-negative-100: -4px;
+      --jbi-space-negative-200: -8px;
+      --jbi-space-negative-300: -12px;
+      --jbi-space-negative-400: -16px;
+      --jbi-space-negative-600: -24px;
+      
+    /* Radius */
+    --jbi-radius-100: 4px;
+    --jbi-radius-200: 8px;
+    --jbi-radius-300: 12px;
+    --jbi-radius-400: 16px;
+    --jbi-radius-full: 9999px;
+  
+    /* Stroke */
+    --jbi-stroke-border: 1px;
+    --jbi-stroke-focus-ring: 2px;
+  
+    /* Icon Size */
+    --jbi-size-icon-sm: 16px;
+    --jbi-size-icon-md: 24px;
+    --jbi-size-icon-lg: 32px;
+    --jbi-size-icon-xl: 40px;
+  
+    /* Modal Size */
+    --jbi-size-modal-max-height: 840px;
+    --jbi-size-modal-min-height: 600px;
+  }

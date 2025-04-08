@@ -1,0 +1,33 @@
+:root {
+    /* Font Families */
+    --jbi-typography-family-sans: "Open Sans";
+    --jbi-typography-family-display: "Oswald";
+    --jbi-typography-family-serif: "Noto Serif";
+    --jbi-typography-family-mono: "Fira Code";
+
+    /* Font Sizes - Scales (Converted to rem, 16px as base) */
+    --jbi-typography-scale-01: 0.625rem;  /* 10px */
+    --jbi-typography-scale-02: 0.75rem;   /* 12px */
+    --jbi-typography-scale-03: 0.875rem;  /* 14px */
+    --jbi-typography-scale-04: 1rem;      /* 16px */
+    --jbi-typography-scale-05: 1.25rem;   /* 20px */
+    --jbi-typography-scale-06: 1.5rem;    /* 24px */
+    --jbi-typography-scale-07: 2rem;      /* 32px */
+    --jbi-typography-scale-08: 2.5rem;    /* 40px */
+    --jbi-typography-scale-09: 3rem;      /* 48px */
+    --jbi-typography-scale-10: 4rem;      /* 64px */
+    --jbi-typography-scale-11: 4.5rem;    /* 72px */
+
+    /* Font Weights */
+    --jbi-typography-weight-thin: 100;
+    --jbi-typography-weight-extra-light: 200;
+    --jbi-typography-weight-light: 300;
+    --jbi-typography-weight-regular: 400;
+    --jbi-typography-weight-regular-italic: 400;
+    --jbi-typography-weight-medium: 500;
+    --jbi-typography-weight-semibold: 600;
+    --jbi-typography-weight-semibold-italic: 600;
+    --jbi-typography-weight-bold: 700;
+    --jbi-typography-weight-extra-bold: 800;
+    --jbi-typography-weight-black: 900;
+  }

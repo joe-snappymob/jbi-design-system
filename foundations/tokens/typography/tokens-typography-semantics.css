@@ -1,0 +1,55 @@
+:root {
+    /* Title Page */
+    --jbi-typography-title-page-family: var(--jbi-typography-family-display);
+    --jbi-typography-title-page-weight: var(--jbi-typography-weight-semibold);
+    --jbi-typography-title-page-size-sm: var(--jbi-typography-scale-08);
+    --jbi-typography-title-page-size-md: var(--jbi-typography-scale-09);
+    --jbi-typography-title-page-size-lg: var(--jbi-typography-scale-10);
+  
+
+    /* Subtitle */
+    --jbi-typography-subtitle-family: var(--jbi-typography-family-sans);
+    --jbi-typography-subtitle-weight: var(--jbi-typography-weight-semibold);
+    --jbi-typography-subtitle-size-sm: var(--jbi-typography-scale-06);
+    --jbi-typography-subtitle-size-md: var(--jbi-typography-scale-07);
+    --jbi-typography-subtitle-size-lg: var(--jbi-typography-scale-08);
+  
+
+    /* Heading */
+    --jbi-typography-heading-family: var(--jbi-typography-family-sans);
+    --jbi-typography-heading-weight: var(--jbi-typography-weight-semibold);
+    --jbi-typography-heading-size-sm: var(--jbi-typography-scale-05);
+    --jbi-typography-heading-size-md: var(--jbi-typography-scale-06);
+    --jbi-typography-heading-size-lg: var(--jbi-typography-scale-07);
+  
+
+    /* Subheading (Currently not in use - Mar 2025) */
+    --jbi-typography-subheading-family: var(--jbi-typography-family-sans);
+    --jbi-typography-subheading-weight: var(--jbi-typography-weight-semibold);
+    --jbi-typography-subheading-size-sm: var(--jbi-typography-scale-04);
+    --jbi-typography-subheading-size-md: var(--jbi-typography-scale-05);
+    --jbi-typography-subheading-size-lg: var(--jbi-typography-scale-06);
+  
+
+    /* Body */
+    --jbi-typography-body-family: var(--jbi-typography-family-sans);
+
+    --jbi-typography-body-weight-regular: var(--jbi-typography-weight-regular);
+    --jbi-typography-body-weight-strong: var(--jbi-typography-weight-semibold);
+    --jbi-typography-body-weight-bold: var(--jbi-typography-weight-bold);
+
+    --jbi-typography-body-weight-regular-italic: var(--jbi-typography-weight-regular-italic);
+    --jbi-typography-body-weight-strong-italic: var(--jbi-typography-weight-strong-italic);
+
+    --jbi-typography-body-size-sm: var(--jbi-typography-scale-02);
+    --jbi-typography-body-size-md: var(--jbi-typography-scale-03);
+    --jbi-typography-body-size-lg: var(--jbi-typography-scale-04);
+  
+
+    /* Code */
+    --jbi-typography-code-family: var(--jbi-typography-family-mono);
+    --jbi-typography-code-weight: var(--jbi-typography-body-weight-regular);
+    --jbi-typography-code-size-sm: var(--jbi-typography-body-size-sm);
+    --jbi-typography-code-size-md: var(--jbi-typography-body-size-md);
+    --jbi-typography-code-size-lg: var(--jbi-typography-body-size-lg);
+  }

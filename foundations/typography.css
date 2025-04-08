@@ -1,0 +1,227 @@
+/* =========================================
+DISPLAY
+========================================= */
+/* Title Page */
+/* ttile-page-sm: currently used for C+ document title */
+.title-page-sm {
+  font-family: var(--jbi-typography-title-page-family);
+  font-size: var(--jbi-typography-title-page-size-sm);
+  font-weight: var(--jbi-typography-title-page-weight);
+  line-height: 1.2rem;
+  letter-spacing: -2;
+}
+
+/* title-page-md: the default text styles for all software page titles */
+.title-page-md {
+  font-family: var(--jbi-typography-title-page-family);
+  font-size: var(--jbi-typography-title-page-size-md);
+  font-weight: var(--jbi-typography-title-page-weight);
+  line-height: 1.2rem;
+  letter-spacing: -2;
+}
+
+/* title-page-lg: currently not in use - March 27 2025 */
+.title-page-lg {
+  font-family: var(--jbi-typography-title-page-family);
+  font-size: var(--jbi-typography-title-page-size-lg);
+  font-weight: var(--jbi-typography-title-page-weight);
+  line-height: 1.2rem;
+  letter-spacing: -2;
+}
+
+
+/* Subtitles: intended for display purposes such as marketing sites, not for internal software UI */
+.subtitle-sm {
+  font-family: var(--jbi-typography-subtitle-family);
+  font-size: var(--jbi-typography-subtitle-size-sm);
+  font-weight: var(--jbi-typography-subtitle-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.subtitle-md {
+  font-family: var(--jbi-typography-subtitle-family);
+  font-size: var(--jbi-typography-subtitle-size-md);
+  font-weight: var(--jbi-typography-subtitle-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.subtitle-lg {
+  font-family: var(--jbi-typography-subtitle-family);
+  font-size: var(--jbi-typography-subtitle-size-lg);
+  font-weight: var(--jbi-typography-subtitle-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+
+/* =========================================
+HEADING
+========================================= */
+/* Heading */
+/* heading-sm: For dialog headers */
+.heading-sm {
+  font-family: var(--jbi-typography-heading-family);
+  font-size: var(--jbi-typography-heading-size-sm);
+  font-weight: var(--jbi-typography-heading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.heading-md {
+  font-family: var(--jbi-typography-heading-family);
+  font-size: var(--jbi-typography-heading-size-md);
+  font-weight: var(--jbi-typography-heading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.heading-lg {
+  font-family: var(--jbi-typography-heading-family);
+  font-size: var(--jbi-typography-heading-size-lg);
+  font-weight: var(--jbi-typography-heading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+/* Subheading: Not in use for internal software UI. Inteded for other purposes (marketing, etc) */
+.subheading-sm {
+  font-family: var(--jbi-typography-subheading-family);
+  font-size: var(--jbi-typography-subheading-size-sm);
+  font-weight: var(--jbi-typography-subheading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.subheading-md {
+  font-family: var(--jbi-typography-subheading-family);
+  font-size: var(--jbi-typography-subheading-size-md);
+  font-weight: var(--jbi-typography-subheading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+.subheading-lg {
+  font-family: var(--jbi-typography-subheading-family);
+  font-size: var(--jbi-typography-subheading-size-lg);
+  font-weight: var(--jbi-typography-subheading-weight);
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+
+
+/* =========================================
+LABEL
+========================================= */
+.label-sm {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-sm);
+  font-weight: var(--jbi-typography-weight-strong);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.label-md {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-md);
+  font-weight: var(--jbi-typography-weight-bold);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.label-lg {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-lg);
+  font-weight: var(--jbi-typography-weight-strong);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+
+/* =========================================
+BODY
+========================================= */
+.body-sm {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-sm);
+  font-weight: var(--jbi-typography-body-weight-regular);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-sm-italic {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-sm);
+  font-weight: var(--jbi-typography-body-weight-regular-italic);
+  font-style: italic;
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-sm-strong {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-sm);
+  font-weight: var(--jbi-typography-body-weight-strong);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+
+
+/* body-md: default size for internal software components */
+.body-md {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-md);
+  font-weight: var(--jbi-typography-body-weight-regular);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-md-italic {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-md);
+  font-weight: var(--jbi-typography-body-weight-regular-italic);
+  font-style: italic;
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-md-strong {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-md);
+  font-weight: var(--jbi-typography-body-weight-strong);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+
+
+/* body-lg: default text size for most components--button, link, input field, dialog description, B2C components */
+.body-lg {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-lg);
+  font-weight: var(--jbi-typography-body-weight-regular);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-lg-italic {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-lg);
+  font-weight: var(--jbi-typography-body-weight-regular-italic);
+  font-style: italic;
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+.body-lg-strong {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-lg);
+  font-weight: var(--jbi-typography-body-weight-strong);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
+/* Avoid using body-lg-bold. It's provided for edge cases UI */
+.body-lg-bold {
+  font-family: var(--jbi-typography-body-family);
+  font-size: var(--jbi-typography-body-size-lg);
+  font-weight: var(--jbi-typography-body-weight-bold);
+  line-height: 1.4rem;
+  letter-spacing: 0;
+}
