@@ -1,8 +1,0 @@
-:root {
-    /* Tooltip Icon */
-    --jbi-color-tooltip-icon-default: var(--jbi-color-icon-neutral-03);
-
-    /* Tooltip Message */
-    --jbi-color-tooltip-message-background: var(--jbi-color-background-netural-05-active);
-    --jbi-color-tooltip-message-text: var(--jbi-color-text-on-neutral-05);
-  }
